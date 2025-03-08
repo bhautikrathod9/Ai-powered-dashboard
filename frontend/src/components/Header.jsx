@@ -8,7 +8,7 @@ const Header = () => {
     <>
     <div className='navbar flex flex-row bg-[#0a0e14] h-20 justify-between' >
         <div className='leftSec flex items-center'>
-            <div className='logo text-[#ffffff] font-bold text-xl p-4'>Ai Dashboard</div>
+            <div className='logo text-[#ffffff] font-bold text-xl p-4 cursor-pointer'>Ai Dashboard</div>
             <div className='searchBox'>
                 <div className='searchBar relative flex flex-row mx-5'>
                     <input type="text" placeholder='Search....' className="w-120 border-transparent focus:outline-none placeholder:text-gray-500 placeholder:p-1 p-2 pl-10 rounded-lg text-gray-100 cursor-pointer bg-[#111927]"/>
