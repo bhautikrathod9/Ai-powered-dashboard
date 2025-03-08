@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
+import Kpi from '../components/Kpi'
 
 const Home = () => {
   return (
     <>
         <Header />
-        <Sidebar />
+        <div className='flex flex-row'>
+            <Sidebar />
+            <Kpi />
+        </div>
     </>
   )
 }
