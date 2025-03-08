@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import Kpi from '../components/Kpi'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
@@ -9,8 +10,8 @@ const Home = () => {
         <Header />
         <div className='flex flex-row'>
             <Sidebar />
-            <Kpi />
-        </div>
+            <Kpi />     
+        </div>   
     </>
   )
 }
