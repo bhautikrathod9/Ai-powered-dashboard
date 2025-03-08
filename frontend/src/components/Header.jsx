@@ -20,10 +20,10 @@ const Header = () => {
         </div>
         <div className='rightSec flex items-center mx-10 justify-between gap-5'>
             <div className='notification cursor-pointer'>
-                <IoMdNotificationsOutline className='text-white text-4xl cursor-pointer hover:text-gray-300'/>
+                <IoMdNotificationsOutline className='text-white text-4xl cursor-pointer hover:text-blue-400'/>
             </div>
             <div className='profile cursor-pointer'>
-                <FaRegUser className='text-white text-3xl hover:text-gray-300'/>
+                <FaRegUser className='text-white text-3xl hover:text-blue-400'/>
             </div>
         </div>
     </div>
